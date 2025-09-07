@@ -1,36 +1,22 @@
-# html-editor
+# Vue 3 + ByteMD Markdown Editor
 
-#### Description
-富文本编辑器 html-editor
+[中文文档](./README.md) | English
 
-#### Software Architecture
-Software architecture description
+## 🚀 Features
 
-#### Installation
+This is an **out-of-the-box** configuration example for a Vue 3 Markdown editor component. It's built on `@bytemd/vue` and its core plugins, providing a feature-rich and well-styled editor. **No complex configuration needed, just copy the code and use it.**
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### Pre-configured Features
 
-#### Instructions
+- ✅ **Core Syntax**: GitHub Flavored Markdown (GFM)
+- ✅ **Code Block Syntax Highlighting**: Powered by `@bytemd/plugin-highlight`
+- ✅ **Math Equation Support**: Powered by `@bytemd/plugin-math` and KaTeX
+- ✅ **Diagrams & Flowcharts**: Powered by `@bytemd/plugin-mermaid`
+- ✅ **Chinese Optimization**: Editor interface tooltips are localized to Chinese
+- ✅ **Enhanced Styling**: Includes base styles and a code highlighting theme
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## 📦 Quick Start
 
-#### Contribution
+### 1. Install Dependencies
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
-
-
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+Add the following dependencies to your `package.json` and run `npm install` or `pnpm install`:
