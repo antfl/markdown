@@ -1,0 +1,36 @@
+{
+  "name": "markdown",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "format": "biome format --write ./src",
+    "lint": "biome lint ./src",
+    "check": "biome check ./src"
+  },
+  "dependencies": {
+    "@bytemd/plugin-gfm": "^1.22.0",
+    "@bytemd/plugin-highlight": "^1.22.0",
+    "@bytemd/plugin-math": "^1.22.0",
+    "@bytemd/vue-next": "^1.22.0",
+    "bytemd": "^1.22.0",
+    "highlight.js": "^11.6.0",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.3",
+    "@types/node": "^22.15.33",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.3",
+    "vite": "6.3.4",
+    "vue-tsc": "^2.2.10"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0",
+    "pnpm": ">=8.11.0"
+  }
+}
