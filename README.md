@@ -1,5 +1,7 @@
 # Vue 3 + ByteMD markdown 编辑器
 
+![markdown.png](docs/markdown.png)
+
 中文文档 | [English](./README.en.md)
 
 ## 🚀 特性
